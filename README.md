@@ -8,7 +8,7 @@ Please file issues and pull requests against that repo. Only file issues here if
 
 ## Install
 
-Install with npm`:
+Install with npm:
 
 ```shell
 npm install npm-angular-route
@@ -16,6 +16,7 @@ npm install npm-angular-route
 
 You can then require it by requiring it.
 ```javascript
+var angular = require('angular')
 require('./angular-router')(window, angular)
 ```
 
@@ -25,8 +26,6 @@ Which in turns allows you to add it to your module's dependencies and use it as 
 ## License
 
 The MIT License
-
-Copyright (c) 2010-2012 Google, Inc. http://angularjs.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
